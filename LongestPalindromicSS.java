@@ -1,10 +1,14 @@
 package DP;
 
+import java.util.Scanner;
+
 public class LongestPalindromicSS {
 
 	public static void main(String[] args) {
 
-		String str = "abbc";
+		Scanner scn = new Scanner(System.in);
+		String str = scn.next();
+		
 		System.out.println(LongestPalindromicSSRec(str, 0, str.length() - 1));
 		System.out.println(LongestPalindromicSSTD(str, 0, str.length() - 1, new int[str.length()][str.length()]));
 		System.out.println(LongestPalindromicSSBU(str));
