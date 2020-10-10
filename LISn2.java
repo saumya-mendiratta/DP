@@ -9,6 +9,7 @@ public class LISn2 {
 
 		//int[] arr = { 3, 4, -1, 0, 6, 2, 3 };
 		//int[] arr = {1,3,6,7,9,4,10,5,6};
+		
 		Scanner scn = new Scanner(System.in);
 		int n = scn.nextInt();
 		int[] arr= new int[n];

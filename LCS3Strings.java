@@ -18,8 +18,6 @@ public class LCS3Strings {
 			s2=scn.nextLine();
 			s3=scn.nextLine();
 		
-
-
 //		 System.out.println(LCS3StringsRec(s1, s2, s3, 0, 0, 0));
 //
 //		int[][][] strg = new int[s1.length()][s2.length()][s3.length()];
