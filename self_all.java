@@ -6,7 +6,7 @@ public class self_all {
 
 	public static void main(String[] args) {
 
-		int n = 2;
+		// int n = 2;
 
 		// System.out.println(FibTD(n, new int[n + 1]));
 //		System.out.println(FibBU(n));
@@ -152,7 +152,7 @@ public class self_all {
 		// int[] arr= { 3,4,-1,0,6,2,3};
 //		int[] arr = { 1, 3, 6, 7, 9, 4, 10, 5, 6 };
 //		System.out.println(LISBU(arr));
-		
+
 		int[] arr = { 0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15 };
 		System.out.println(LISBU(arr));
 
@@ -1693,7 +1693,7 @@ public class self_all {
 			}
 
 		}
-		return len ; 
+		return len;
 	}
 
 	public static int binarySearch(int[] le, int si, int ei, int item) {
