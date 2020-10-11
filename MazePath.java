@@ -1,15 +1,15 @@
 package DP;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class MazePath {
 
 	public static void main(String[] args) {
-
-		int n = 10000;
-
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
 		// System.out.println(MPRecursion(0, 0, n, n));
-		//System.out.println(MPTD(0, 0, n, n, new int[n + 1][n + 1]));
+		// System.out.println(MPTD(0, 0, n, n, new int[n + 1][n + 1]));
 		System.out.println(MPBU(n, n));
 		System.out.println(MPBUSE(n, n));
 	}
@@ -91,8 +91,8 @@ public class MazePath {
 			}
 
 		}
-		
-		return strg[0] ;
+
+		return strg[0];
 
 	}
 
