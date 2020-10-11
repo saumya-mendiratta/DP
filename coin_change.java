@@ -6,8 +6,6 @@ import java.util.Scanner;
 public class coin_change {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		//int[] arr = { 1, 2, 3 };
 		//System.out.println(coin(arr, 0, arr.length, 4));
 		
